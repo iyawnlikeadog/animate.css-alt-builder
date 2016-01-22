@@ -1,5 +1,5 @@
 # animate.css-alt-builder
-Alternative easy to use custom <a href="https://github.com/daneden/animate.css">ANIMATE.CSS</a> builder for Gulp
+Alternative easy to use <a href="https://github.com/daneden/animate.css">ANIMATE.CSS</a> custom builder for Gulp
 
 ###Installing
 To install the builder you must have Node.js installed on your system.<br>
