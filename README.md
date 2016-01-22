@@ -1,14 +1,15 @@
 # animate.css-alt-builder
 Alternative easy to use custom ANIMATE.CSS builder for Gulp
 
-Installing
+###Installing
+To install the builder you must have Node.js installed on your system.<br>
+Download ZIP, extract it and install Gulp and its dependencies using the following command:
 ```
 npm install --save-dev
 ```
-Also you can just run win-install.bat if you're on Windows.
 
-Using
-To customize your builds edit gulpfile.js
+###Using
+To customize your builds just edit gulpfile.js. Here's an example:
 ```js
 var builds = {
 	project_one: {
@@ -22,4 +23,8 @@ var builds = {
 		min:        false
 	}
 };
+```
+Then run gulp default task
+```
+gulp
 ```
